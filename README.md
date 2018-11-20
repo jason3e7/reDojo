@@ -7,3 +7,7 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 * gcc -O0 -mpreferred-stack-boundary=2 ex.c -o ex
 * objdump -d -M intel --no-show-raw-insn ex
+
+just look 
+xxxxxxxx <main>:
+
