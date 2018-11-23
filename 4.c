@@ -1,6 +1,5 @@
 int main() {
-  int a[2];
-  a[0] = 10;
-  a[1] = a[0];  
+  int a = 10;
+  int *b = &a;
   return 0;
 }
