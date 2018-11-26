@@ -1,5 +1,7 @@
+int a = 100;
+
 int main() {
-  int a = 0;
-  a = 100;
+  int b = 0;
+  b = a;
   return 0;
 }
